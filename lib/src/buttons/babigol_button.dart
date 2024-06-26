@@ -16,7 +16,7 @@ class BabigolButton extends StatelessWidget {
         backgroundColor: color ?? colors.secondary,
         padding: const EdgeInsets.symmetric(vertical: 12, horizontal: 24),
         shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(25)
+          borderRadius: BorderRadius.circular(16)
         )
       ),
       child: child,
